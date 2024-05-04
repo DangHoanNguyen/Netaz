@@ -8,7 +8,7 @@ The application is created to visualize Internet traffics, from which, suspected
   The current python version is 3.10.xx
 ## Install required libraries
   ```
-  pip install -r "requirement.txt"
+  pip install -r "requirements.txt"
   ```
 ## Commands:
   - To run packet sniffer:
@@ -17,11 +17,16 @@ The application is created to visualize Internet traffics, from which, suspected
     ```
   - Testing sniffer: Open another terminal of the same type and input command to generate Internet Traffics, for example:
     ```
-    nc <domanain> <port>
+    nc <domain> <port>
     ```
   - Return to the previous terminal to terminate the capturing. And the retrieved data is stored in "logdata.json".
   - To visualize the retrieved data:
     ```
     python3 netazvisualizer.py logdata.json
     ```
+
+# Progress:
+- The project is still underdevelopment.
+- The app will be improved to analyze data from other Packet sniffers.
+- More techniques will be applied to identify a response and its specific request.
   
