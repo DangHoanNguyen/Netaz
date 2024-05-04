@@ -26,7 +26,7 @@ The application is created to visualize Internet traffics, from which, suspected
     ```
 
 # Progress:
-- The project is still underdevelopment.
+- The project is still under development.
 - The app will be improved to analyze data from other Packet sniffers.
 - More techniques will be applied to identify a response and its specific request.
   
